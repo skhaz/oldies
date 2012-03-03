@@ -1,0 +1,67 @@
+# todas as linhas iniciadas em '#' serão consideradas
+# comentarios e serão descartadas pelo sistema(não interpretadas)
+
+# exemplo de mapa, jungle.map
+# haooooooooooo -> tarzam :D
+
+# Tamanho do Mapa em pixels
+<WIDTH=1600>
+<HEIGHT=1600>
+
+# Tamanho do Tile em Pixels
+<WSTILE=64>
+<HSTILE=32>
+
+# Numero total tiles em decimal
+<WNTILES=25>
+<HNTILES=25>
+
+# Imagens a ser carregadas
+# a ordem que são carregada são
+# a mesma que será utilizada na matrix de tiles
+<TILE=data/obj/tiles/grama_01.bmp>
+<TILE=data/obj/tiles/areia_01.bmp>
+<TILE=data/obj/tiles/agua_01.bmp>
+<TILE=data/obj/tiles/grama_areia_01.bmp>
+<TILE=data/obj/tiles/grama_areia_02.bmp>
+
+
+# Musica, para relaxar XD
+# ainda não implementado
+# em um futuro não muito distante
+# as musicas podem ser adicionadas sequencialmente
+# e elas serão tocadas na sequencia
+<MUSIC=data/music/Unearthly - Mors Et Destructio Sanctis Rebus.ogg>
+<MUSIC=data/music/Ocultan - O Orgulhoso Exu Belzebuth.ogg>
+# É claro que essas musicas são de bandas, são apenas exemplos
+# e também ninguem tem bom gosto pra musica, como eu :D
+
+
+# Matriz de tiles a ser
+# copiada para o mapa
+# 25x25, como descrito acima
+# nota: A matriz de tiles deve ficar no final
+# do arquivo do mapa!
+[ 0 0 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 ]
+[ 0 3 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 ]
+[ 3 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 ]
+[ 1 1 1 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 ]
+[ 1 1 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ]
+[ 1 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ]
+[ 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ]
+[ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ]
+[ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ]
+[ 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 ]
+[ 0 0 0 0 0 0 0 0 0 0 0 2 2 2 0 0 0 0 0 0 0 0 0 0 0 ]
+[ 0 0 0 0 0 0 0 0 0 0 2 2 2 2 2 0 0 0 2 2 2 0 0 0 0 ]
+[ 0 0 0 0 0 0 0 0 0 2 2 2 2 2 2 2 0 0 0 2 2 2 0 0 0 ]
+[ 0 0 0 0 0 0 0 0 0 0 2 2 2 2 2 0 0 0 0 0 2 2 2 0 0 ]
+[ 0 0 0 0 0 0 0 0 0 0 0 2 2 2 0 0 0 0 0 0 0 2 2 2 0 ]
+[ 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 ]
+[ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ]
+[ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ]
+[ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ]
+[ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ]
+
+
+# fim do exemplo de mapa

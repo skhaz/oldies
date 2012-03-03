@@ -1,0 +1,338 @@
+# depslib dependency file v1.0
+1142165924 c:\meus documentos\cpp\mdd\src\cplayer.cpp
+	"lib/classes/CPlayer.h"
+
+1141917062 c:\meus documentos\cpp\mdd\src\lib\classes\cplayer.h
+	"../Globals.h"
+	"CImage.h"
+
+1141914944 c:\meus documentos\cpp\mdd\src\lib\globals.h
+	"Libraries.h"
+	"SDL_All.h"
+	"Definitions.h"
+	"Enums.h"
+
+1141400356 c:\meus documentos\cpp\mdd\src\lib\libraries.h
+	<iostream>
+	<cstdlib>
+	<fstream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<jpeglib.h>
+	<io.h>
+	<sys/io.h>
+	<getopt.h>
+
+1141400386 c:\meus documentos\cpp\mdd\src\lib\sdl_all.h
+	"SDL.h"
+	"SDL_image.h"
+	"SDL_ttf.h"
+
+1142170768 c:\meus documentos\cpp\mdd\src\lib\definitions.h
+
+1141392694 c:\meus documentos\cpp\mdd\src\lib\enums.h
+
+1141824950 c:\meus documentos\cpp\mdd\src\lib\classes\cimage.h
+	"../Globals.h"
+
+1142128640 c:\meus documentos\cpp\mdd\src\cfont.cpp
+	"lib/classes/CFont.h"
+
+1141393194 c:\meus documentos\cpp\mdd\src\lib\classes\cfont.h
+	"../Globals.h"
+
+1141404922 c:\meus documentos\cpp\mdd\src\cgui.cpp
+	"lib/classes/CGui.h"
+
+1141404832 c:\meus documentos\cpp\mdd\src\lib\classes\cgui.h
+	"../Globals.h"
+
+1141917398 c:\meus documentos\cpp\mdd\src\cimage.cpp
+	"lib/classes/CImage.h"
+
+1141924856 c:\meus documentos\cpp\mdd\src\cmap.cpp
+	"lib/classes/Cmap.h"
+
+1141924500 c:\meus documentos\cpp\mdd\src\lib\classes\cmap.h
+	"../Globals.h"
+	"CImage.h"
+
+1141919792 c:\meus documentos\cpp\mdd\src\cmouse.cpp
+	"lib/classes/CMouse.h"
+
+1141917950 c:\meus documentos\cpp\mdd\src\lib\classes\cmouse.h
+	"../Globals.h"
+	"CImage.h"
+
+1142128646 c:\meus documentos\cpp\mdd\src\cfps.cpp
+	"lib/classes/CFPS.h"
+
+1141914592 c:\meus documentos\cpp\mdd\src\lib\classes\cfps.h
+	"../Globals.h"
+
+1142170118 c:\meus documentos\cpp\mdd\src\cscreen.cpp
+	"lib/classes/CScreen.h"
+
+1142169680 c:\meus documentos\cpp\mdd\src\lib\classes\cscreen.h
+	"../Globals.h"
+
+1141395056 c:\meus documentos\cpp\mdd\src\ctext.cpp
+	"lib/classes/CText.h"
+
+1141392846 c:\meus documentos\cpp\mdd\src\lib\classes\ctext.h
+	"../Globals.h"
+
+1141397284 c:\meus documentos\cpp\mdd\src\ctile.cpp
+	"lib/classes/CTile.h"
+
+1141397156 c:\meus documentos\cpp\mdd\src\lib\classes\ctile.h
+	"../Globals.h"
+	"CImage.h"
+
+1142165886 c:\meus documentos\cpp\mdd\src\mdd.cpp
+	"lib/Globals.h"
+	"lib/CoreGame.h"
+
+1141914174 c:\meus documentos\cpp\mdd\src\lib\coregame.h
+	"Globals.h"
+	"GameClasses.h"
+	"Guichan_All.h"
+
+1141918518 c:\meus documentos\cpp\mdd\src\lib\gameclasses.h
+	"classes/CScreen.h"
+	"classes/CFont.h"
+	"classes/CText.h"
+	"classes/CFPS.h"
+	"classes/CInput.h"
+	"classes/CPlayer.h"
+	"classes/CImage.h"
+	"classes/CMap.h"
+	"classes/CTile.h"
+	"classes/CGui.h"
+	"classes/CMouse.h"
+	"classes/CLoadScreen.h"
+
+1140357148 c:\meus documentos\cpp\mdd\src\lib\classes\cinput.h
+	<cstdio>
+	"../Enums.h"
+	"../SDL_All.h"
+
+1141403306 c:\meus documentos\cpp\mdd\src\lib\guichan_all.h
+	<guichan.hpp>
+	<guichan/sdl.hpp>
+
+1141578280 c:\meus documentos\cpp\mdd\src\cloadscreen.cpp
+	"lib/classes/CLoadScreen.h"
+
+1141578180 c:\meus documentos\cpp\mdd\src\lib\classes\cloadscreen.h
+	"../Globals.h"
+	"CImage.h"
+
+1142169726 c:\meus documentos\cpp\mdd\src\coregame.cpp
+	"lib/CoreGame.h"
+
+1142165924 c:\mdd\cliente\src\cplayer.cpp
+	"lib/classes/CPlayer.h"
+
+1141917062 c:\mdd\cliente\src\lib\classes\cplayer.h
+	"../Globals.h"
+	"CImage.h"
+
+1142948310 c:\mdd\cliente\src\lib\globals.h
+	"Libraries.h"
+	"SDL_All.h"
+	"Guichan_All.h"
+	"Definitions.h"
+	"Enums.h"
+	"Types.h"
+
+1143074538 c:\mdd\cliente\src\lib\libraries.h
+	<iostream>
+	<cstdlib>
+	<fstream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<jpeglib.h>
+	<io.h>
+	<sys/io.h>
+	<getopt.h>
+
+1142947086 c:\mdd\cliente\src\lib\sdl_all.h
+	"SDL.h"
+	"SDL_image.h"
+	"SDL_ttf.h"
+	"SDL_mixer.h"
+
+1142309960 c:\mdd\cliente\src\lib\definitions.h
+
+1142308178 c:\mdd\cliente\src\lib\enums.h
+
+1143079822 c:\mdd\cliente\src\lib\classes\cimage.h
+	"../Globals.h"
+
+1142175592 c:\mdd\cliente\src\cmouse.cpp
+	"lib/classes/CMouse.h"
+
+1142177436 c:\mdd\cliente\src\lib\classes\cmouse.h
+	"../Globals.h"
+	"CImage.h"
+
+1142310016 c:\mdd\cliente\src\lib\guichan_all.h
+	<guichan.hpp>
+	<guichan/sdl.hpp>
+
+1142310164 c:\mdd\cliente\src\cfont.cpp
+	"lib/classes/CFont.h"
+
+1142310116 c:\mdd\cliente\src\lib\classes\cfont.h
+	"../Globals.h"
+
+1142176406 c:\mdd\cliente\src\cgui.cpp
+	"lib/classes/CGui.h"
+
+1142310176 c:\mdd\cliente\src\lib\classes\cgui.h
+	"../Globals.h"
+
+1143079848 c:\mdd\cliente\src\cimage.cpp
+	"lib/classes/CImage.h"
+
+1142175418 c:\mdd\cliente\src\cloadscreen.cpp
+	"lib/classes/CLoadScreen.h"
+
+1142177424 c:\mdd\cliente\src\lib\classes\cloadscreen.h
+	"../Globals.h"
+	"CImage.h"
+
+1143076528 c:\mdd\cliente\src\cmap.cpp
+	"lib/classes/Cmap.h"
+
+1142264682 c:\mdd\cliente\src\lib\classes\cmap.h
+	"../Globals.h"
+	"CImage.h"
+
+1142175316 c:\mdd\cliente\src\cfps.cpp
+	"lib/classes/CFPS.h"
+
+1142310080 c:\mdd\cliente\src\lib\classes\cfps.h
+	"../Globals.h"
+
+1142949370 c:\mdd\cliente\src\cscreen.cpp
+	"lib/classes/CScreen.h"
+
+1142174892 c:\mdd\cliente\src\lib\classes\cscreen.h
+	"../Globals.h"
+
+1142175908 c:\mdd\cliente\src\ctext.cpp
+	"lib/classes/CText.h"
+
+1141392846 c:\mdd\cliente\src\lib\classes\ctext.h
+	"../Globals.h"
+
+1142175968 c:\mdd\cliente\src\ctile.cpp
+	"lib/classes/CTile.h"
+
+1141397156 c:\mdd\cliente\src\lib\classes\ctile.h
+	"../Globals.h"
+	"CImage.h"
+
+1143129166 c:\mdd\cliente\src\coregame.cpp
+	"lib/CoreGame.h"
+
+1143123374 c:\mdd\cliente\src\lib\coregame.h
+	"Globals.h"
+	"GameClasses.h"
+
+1143128206 c:\mdd\cliente\src\lib\gameclasses.h
+	"classes/CScreen.h"
+	"classes/CFont.h"
+	"classes/CText.h"
+	"classes/CMusic.h"
+	"classes/CFPS.h"
+	"classes/CInput.h"
+	"classes/CPlayer.h"
+	"classes/CImage.h"
+	"classes/CMap.h"
+	"classes/CTile.h"
+	"classes/CMouse.h"
+	"classes/CAudioManager.h"
+	"../gui/CGui.h"
+	"../gui/CLoadScreen.h"
+
+1142952536 c:\mdd\cliente\src\lib\classes\cinput.h
+	"../Globals.h"
+
+1143054444 c:\mdd\cliente\src\mdd.cpp
+	"lib/Globals.h"
+	"lib/CoreGame.h"
+
+1142308188 c:\mdd\cliente\src\lib\types.h
+
+1143033770 c:\mdd\cliente\src\cmusic.cpp
+	"lib/classes/CMusic.h"
+
+1143059102 c:\mdd\cliente\src\lib\classes\cmusic.h
+	"../Globals.h"
+
+1143060016 c:\mdd\cliente\src\lib\classes\caudiomanager.h
+	"../Globals.h"
+
+1143059486 c:\mdd\cliente\src\caudiomanager.cpp
+	"lib/classes/CAudioManager.h"
+
+1143124424 c:\mdd\cliente\src\cinput.cpp
+	"lib/classes/CInput.h"
+
+1143131448 c:\mdd\cliente\src\gui\cgui.h
+	"Globals.h"
+
+1143131082 c:\mdd\cliente\src\gui\cloadscreen.h
+	"Globals.h"
+	"classes/CImage.h"
+
+1142948310 c:\mdd\cliente\src\\lib\globals.h
+	"Libraries.h"
+	"SDL_All.h"
+	"Guichan_All.h"
+	"Definitions.h"
+	"Enums.h"
+	"Types.h"
+
+1143074538 c:\mdd\cliente\src\\lib\libraries.h
+	<iostream>
+	<cstdlib>
+	<fstream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<jpeglib.h>
+	<io.h>
+	<sys/io.h>
+	<getopt.h>
+
+1142947086 c:\mdd\cliente\src\\lib\sdl_all.h
+	"SDL.h"
+	"SDL_image.h"
+	"SDL_ttf.h"
+	"SDL_mixer.h"
+
+1142310016 c:\mdd\cliente\src\\lib\guichan_all.h
+	<guichan.hpp>
+	<guichan/sdl.hpp>
+
+1142309960 c:\mdd\cliente\src\\lib\definitions.h
+
+1142308178 c:\mdd\cliente\src\\lib\enums.h
+
+1142308188 c:\mdd\cliente\src\\lib\types.h
+
+1143079822 c:\mdd\cliente\src\\lib\classes\cimage.h
+	"../Globals.h"
+
+1143128278 c:\mdd\cliente\src\gui\cgui.cpp
+	"CGui.h"
+
+1143129780 c:\mdd\cliente\src\gui\cloadscreen.cpp
+	"CLoadScreen.h"
+
