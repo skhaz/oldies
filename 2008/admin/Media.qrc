@@ -1,0 +1,40 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/">
+	<!-- style sheets from Qt -->
+	<file>media/style/dark.qss</file>
+
+	<qresource prefix="dark" >
+		<file>checked-dark-checkBox.png</file>
+		<file>left-dark-arrow.png</file>
+		<file>left-right-dark-arrow.png</file>
+		<file>right-dark-arrow.png</file>
+		<file>up-dark-arrow.png</file>
+		<file>down-dark-arrow.png</file>
+		<file>up-down-dark-arrow.png</file>
+	</qresource>
+
+	<!-- icons -->
+	<file>media/icon/door_out.png</file>
+	<file>media/icon/cut_red.png</file>
+	<file>media/icon/page_copy.png</file>
+	<file>media/icon/page_paste.png</file>
+	<file>media/icon/help.png</file>
+	<file>media/icon/wrench_orange.png</file>
+	<file>media/icon/brick.png</file>
+	<file>media/icon/database_refresh.png</file>
+	<file>media/icon/database.png</file>
+	<file>media/icon/cross.png</file>
+	<file>media/icon/tick.png</file>
+	<file>media/icon/thumb_up.png</file>
+	<file>media/icon/thumb_down.png</file>
+	<file>media/icon/add.png</file>
+	<file>media/icon/delete.png</file>
+	<file>media/icon/page.png</file>
+
+	<file>media/geo/redondo.png</file>
+	<file>media/geo/barra.png</file>
+	<file>media/geo/sextavado.png</file>
+	<file>media/geo/tuboredondo.png</file>
+</qresource>
+</RCC>
+

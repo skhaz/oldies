@@ -1,0 +1,492 @@
+<ui version="4.0" >
+ <class>MateriaPrima</class>
+ <widget class="QDialog" name="MateriaPrima" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>726</width>
+    <height>452</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Matéria Prima</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2" >
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout" >
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2" >
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3" >
+         <item>
+          <widget class="QLabel" name="label_6" >
+           <property name="text" >
+            <string>Nome (Gerado Automáticamente)</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="nomeEdit" >
+           <property name="maxLength" >
+            <number>128</number>
+           </property>
+           <property name="readOnly" >
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <spacer name="verticalSpacer" >
+       <property name="orientation" >
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeType" >
+        <enum>QSizePolicy::Minimum</enum>
+       </property>
+       <property name="sizeHint" stdset="0" >
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_4" >
+       <item>
+        <layout class="QFormLayout" name="formLayout_2" >
+         <property name="fieldGrowthPolicy" >
+          <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+         </property>
+         <item row="0" column="0" >
+          <widget class="QLabel" name="label" >
+           <property name="text" >
+            <string>&amp;Material</string>
+           </property>
+           <property name="buddy" >
+            <cstring>materialCombo</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0" >
+          <widget class="QLabel" name="label_7" >
+           <property name="text" >
+            <string>Densidade</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1" >
+          <widget class="QLabel" name="densidadeLabel" >
+           <property name="font" >
+            <font>
+             <weight>50</weight>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="text" >
+            <string>(densidadeLabel)</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1" >
+          <spacer name="verticalSpacer_3" >
+           <property name="orientation" >
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0" >
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item row="3" column="0" >
+          <widget class="QLabel" name="label_5" >
+           <property name="text" >
+            <string>Q&amp;ualidade</string>
+           </property>
+           <property name="buddy" >
+            <cstring>qualidadeEdit</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1" >
+          <widget class="QLineEdit" name="qualidadeEdit" >
+           <property name="sizePolicy" >
+            <sizepolicy vsizetype="Fixed" hsizetype="Preferred" >
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="inputMask" >
+            <string/>
+           </property>
+           <property name="maxLength" >
+            <number>64</number>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0" >
+          <widget class="QLabel" name="label_4" >
+           <property name="text" >
+            <string>Es&amp;pécie</string>
+           </property>
+           <property name="buddy" >
+            <cstring>especieCombo</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1" >
+          <widget class="SqlComboBox" name="especieCombo" />
+         </item>
+         <item row="0" column="1" >
+          <widget class="SqlComboBox" name="materialCombo" />
+         </item>
+         <item row="6" column="0" >
+          <widget class="QLabel" name="label_3" >
+           <property name="text" >
+            <string>Peso linear</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="1" >
+          <widget class="QLabel" name="linearLabel" >
+           <property name="text" >
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="0" >
+          <widget class="QLabel" name="label_8" >
+           <property name="text" >
+            <string>Preço Linear</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1" >
+          <widget class="QDoubleSpinBox" name="precoSpin" >
+           <property name="maximumSize" >
+            <size>
+             <width>80</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="prefix" >
+            <string>R$ </string>
+           </property>
+           <property name="decimals" >
+            <number>2</number>
+           </property>
+           <property name="singleStep" >
+            <double>0.500000000000000</double>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_2" >
+         <property name="orientation" >
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeType" >
+          <enum>QSizePolicy::Maximum</enum>
+         </property>
+         <property name="sizeHint" stdset="0" >
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <layout class="QFormLayout" name="formLayout_3" >
+         <property name="fieldGrowthPolicy" >
+          <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+         </property>
+         <item row="0" column="0" >
+          <widget class="QLabel" name="label_2" >
+           <property name="text" >
+            <string>&amp;Tipo</string>
+           </property>
+           <property name="buddy" >
+            <cstring>tipoCombo</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1" >
+          <widget class="QComboBox" name="tipoCombo" />
+         </item>
+         <item row="1" column="0" >
+          <widget class="QLabel" name="formulaInfo" >
+           <property name="text" >
+            <string>Formúla</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1" >
+          <widget class="QLabel" name="formulaLabel" >
+           <property name="text" >
+            <string>(formulaLabel)</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0" >
+          <widget class="QLabel" name="label1" >
+           <property name="text" >
+            <string>label1</string>
+           </property>
+           <property name="buddy" >
+            <cstring>doubleSpinBox1</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1" >
+          <widget class="QDoubleSpinBox" name="doubleSpinBox1" >
+           <property name="maximumSize" >
+            <size>
+             <width>80</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="specialValueText" >
+            <string/>
+           </property>
+           <property name="accelerated" >
+            <bool>true</bool>
+           </property>
+           <property name="decimals" >
+            <number>2</number>
+           </property>
+           <property name="minimum" >
+            <double>0.000000000000000</double>
+           </property>
+           <property name="maximum" >
+            <double>9999.000000000000000</double>
+           </property>
+           <property name="singleStep" >
+            <double>0.500000000000000</double>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0" >
+          <widget class="QLabel" name="label2" >
+           <property name="text" >
+            <string>label2</string>
+           </property>
+           <property name="buddy" >
+            <cstring>doubleSpinBox2</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1" >
+          <widget class="QDoubleSpinBox" name="doubleSpinBox2" >
+           <property name="maximumSize" >
+            <size>
+             <width>80</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="specialValueText" >
+            <string/>
+           </property>
+           <property name="accelerated" >
+            <bool>true</bool>
+           </property>
+           <property name="decimals" >
+            <number>2</number>
+           </property>
+           <property name="minimum" >
+            <double>0.000000000000000</double>
+           </property>
+           <property name="maximum" >
+            <double>9999.000000000000000</double>
+           </property>
+           <property name="singleStep" >
+            <double>0.500000000000000</double>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="0" >
+          <widget class="QLabel" name="label3" >
+           <property name="text" >
+            <string>label3</string>
+           </property>
+           <property name="buddy" >
+            <cstring>doubleSpinBox3</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1" >
+          <widget class="QDoubleSpinBox" name="doubleSpinBox3" >
+           <property name="maximumSize" >
+            <size>
+             <width>80</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="specialValueText" >
+            <string/>
+           </property>
+           <property name="accelerated" >
+            <bool>true</bool>
+           </property>
+           <property name="decimals" >
+            <number>2</number>
+           </property>
+           <property name="minimum" >
+            <double>0.000000000000000</double>
+           </property>
+           <property name="maximum" >
+            <double>9999.000000000000000</double>
+           </property>
+           <property name="singleStep" >
+            <double>0.500000000000000</double>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="0" >
+          <widget class="QLabel" name="label4" >
+           <property name="text" >
+            <string>label4</string>
+           </property>
+           <property name="buddy" >
+            <cstring>doubleSpinBox4</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="1" >
+          <widget class="QDoubleSpinBox" name="doubleSpinBox4" >
+           <property name="maximumSize" >
+            <size>
+             <width>80</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="specialValueText" >
+            <string/>
+           </property>
+           <property name="accelerated" >
+            <bool>true</bool>
+           </property>
+           <property name="decimals" >
+            <number>2</number>
+           </property>
+           <property name="minimum" >
+            <double>0.000000000000000</double>
+           </property>
+           <property name="maximum" >
+            <double>9999.000000000000000</double>
+           </property>
+           <property name="singleStep" >
+            <double>0.500000000000000</double>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="0" >
+          <widget class="QLabel" name="label5" >
+           <property name="text" >
+            <string>label5</string>
+           </property>
+           <property name="buddy" >
+            <cstring>doubleSpinBox5</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="1" >
+          <widget class="QDoubleSpinBox" name="doubleSpinBox5" >
+           <property name="maximumSize" >
+            <size>
+             <width>80</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="specialValueText" >
+            <string/>
+           </property>
+           <property name="accelerated" >
+            <bool>true</bool>
+           </property>
+           <property name="decimals" >
+            <number>2</number>
+           </property>
+           <property name="minimum" >
+            <double>0.000000000000000</double>
+           </property>
+           <property name="maximum" >
+            <double>9999.000000000000000</double>
+           </property>
+           <property name="singleStep" >
+            <double>0.500000000000000</double>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1" >
+          <widget class="QLabel" name="pictureLabel" >
+           <property name="minimumSize" >
+            <size>
+             <width>128</width>
+             <height>100</height>
+            </size>
+           </property>
+           <property name="text" >
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout" >
+       <item>
+        <spacer name="horizontalSpacer" >
+         <property name="orientation" >
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0" >
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="submitButton" >
+         <property name="text" >
+          <string>PushButton</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="cancelButton" >
+         <property name="text" >
+          <string>&amp;Fechar</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>SqlComboBox</class>
+   <extends>QComboBox</extends>
+   <header>SqlComboBox.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
